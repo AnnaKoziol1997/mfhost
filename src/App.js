@@ -7,7 +7,8 @@ import { Stack } from '@mui/system';
 function App() {
   return (
     <Box textAlign='center'>
-      <Stack display='block' spacing={2} direction='row'>
+      <Stack display='block' spacing={2} direction='columb'>
+        HOST
         <Button variant='contained' color='primary' size='small'>
           Text
         </Button>
